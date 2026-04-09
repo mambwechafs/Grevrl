@@ -1175,6 +1175,60 @@ section,
   font-size: 1.3rem;
 }
 
+.about-cta .content {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 7rem 0;
+}
+
+.about-cta p {
+  color: var(--contrast-color);
+}
+
+.about-cta .content-title {
+  color: var(--contrast-color);
+  font-weight: 300;
+  text-align: center;
+}
+
+.about-cta .content-title strong {
+  font-weight: 700;
+}
+
+.about-cta .content-subtitle {
+  font-weight: 300;
+  color: var(--contrast-color);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Center paragraph nicely */
+.about-cta .content p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-cta-gold {
+   letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+}
+
+.btn-cta-gold:hover {
+  background-color: #c19b2e;
+  color: #ffffff;
+}
+
 /*--------------------------------------------------------------
 # Services 2 Section
 --------------------------------------------------------------*/
